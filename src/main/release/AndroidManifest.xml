@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.zzstc.lzm.user">
+
+    <application>
+
+        <meta-data
+            android:name="cn.zzstc.lzm.user.LifeCycleInjector"
+            android:value="@string/lifecycle_proxy" />
+
+        <meta-data
+            android:name="cn.zzstc.lzm.user.BuildConfig"
+            android:value="@string/module_info" />
+
+        <activity
+            android:name=".ui.LoginActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+    </application>
+
+</manifest>
